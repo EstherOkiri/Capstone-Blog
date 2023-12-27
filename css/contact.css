@@ -1,0 +1,45 @@
+body{
+    background-color: #CFCCBD;
+}
+.contact-main-content{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#contact-paragraph{
+    font-size: 28px ;
+}
+.contact{
+    margin-left: 60px;
+    padding-top: 60px;
+    justify-content: center;
+    display: flex;
+    column-gap: 104px;
+    
+}
+.contact-location{
+    display: flex;
+}
+.contact-mobile{
+    display: flex;
+    padding-top: 16px;
+}
+.contact-email{
+    display: flex;
+    padding-top: 16px;
+}
+fieldset{
+    background-color: #b09a714e;
+    width: 700px;
+    border:2px, solid, black ;
+}
+label{
+    font-family: tahoma,Geneva;
+    padding-left: 16px;
+    font-size: 20px;
+}
+input{
+    width: 200px;
+    border-radius: 8px;
+    height: 48px;
+}

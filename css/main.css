@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: healing_sunday;
+    src: url(../fonts/Healing\ Sunday.ttf);
+}
+@font-face {
+    font-family: next_sunday;
+    src: url(../fonts/Next\ Sunday.ttf);
+}
+@font-face {
+    font-family: radiant;
+    src: url(../fonts/Radiant\ Kingdom.otf);
+}
+body::after{
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url(../assets/fb-icon.png) url(../assets/ig-icon.png);
+}
+.main-header{
+    width: 100%;
+    height: 60px;
+    padding-left: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-header-logo{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+}
+.main-header-logo img{
+    height: 40px;
+    align-self: center;
+}
+.nav-bar{
+    width:fit-content;
+    height: 100%;
+}
+.nav-bar ul{
+    list-style: none;
+    margin-left: 32px;
+}
+.nav-bar ul li{
+    display: inline;
+    float: left;
+}
+.nav-bar ul li a{
+    padding: 0 10px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 60px;
+    color: black;
+    display: block;
+    height: 100%;
+}
+.nav-bar ul li a:hover{
+    color: #B09A71;
+}
+.main-header-sm{
+    width: fit-content;
+    height: 100%;
+    padding-right: 60px;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.main-header-sm-fb{
+    width: 20px;
+    height: 20px;
+    background-image: url(../assets/bw-fb-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-header-sm-fb:hover{
+    background-image: url(../assets/fb-icon.png);
+}
+.main-header-sm-ig{
+    width: 20px;
+    height: 20px;
+    background-image: url(../assets/bw-ig-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-header-sm-ig:hover{
+    background-image: url(../assets/ig-icon.png);
+
+}
+/*hero section*/
+.hero-section{
+    width: 100%;
+    height: 600px;
+    background-image: url(../assets/hero-home-pg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+/*recent articles section*/
+h2{
+    text-align: center;
+    font-family: radiant;
+    font-size: 30px;
+    padding-top: 20px;
+}
+h4{
+    font-family: next_sunday;
+    font-size: 20px;
+}
+.recent-articles{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 20px;
+    align-items: center;
+}
+.recent-articles img{
+    height: 200px;
+    border-radius: 32px;
+}
+.recent-articles-exc1{
+    border-right: 2px solid #B09A71;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+.recent-articles-exc2{
+    border-right: 2px solid #B09A71;
+    padding-right: 20px;
+}
+.recent-articles-exc3{
+    padding-right: 60px;
+}
+.recent-articles-exc3 a{
+    cursor: pointer;
+}
+button{
+    background-color: #B09A71;
+    height: 32px;
+    width: 72px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #b09a712b;
+}
+/*footer*/
+.main-footer{
+    width: 100%;
+    height: 60px;
+    padding-left: 60px;
+    padding-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-footer-logo{
+    display: flex;
+}
+.main-footer-logo img{
+    height: 40px;
+}
+.main-footer-nav ul{
+    list-style: none;
+    margin-left: 32px; 
+}
+.main-footer-nav ul li{
+    display: inline;
+    float: left;
+}
+.main-footer-nav ul li a{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    padding: 0 10px;
+}
+.main-footer-nav ul li a:hover{
+    color: #B09A71;
+}
+.main-footer-sm{
+    display: flex;
+    column-gap: 10px;
+}
