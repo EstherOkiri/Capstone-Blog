@@ -15,6 +15,10 @@
     font-family: radiant;
     src: url(../fonts/Radiant\ Kingdom.otf);
 }
+@font-face {
+    font-family: productive;
+    src: url(../fonts/Productive\ Day.otf);
+}
 body::after{
     position: absolute;
     width: 0;
